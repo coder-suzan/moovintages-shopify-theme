@@ -2380,7 +2380,7 @@ input[type='checkbox'] {
   position: relative;
   margin-right: -1.2rem;
   background: #fff;
-  z-index: 13;
+  z-index: 10;
   margin-left: 2rem;
 }
 
