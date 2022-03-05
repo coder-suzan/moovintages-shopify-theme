@@ -2229,6 +2229,14 @@ input[type='checkbox'] {
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }
+  
+  .header-wrapper:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+  }
 
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
