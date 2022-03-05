@@ -2625,7 +2625,7 @@ details[open] > .header__menu-item .icon-caret {
   left: 0;
   background-color: rgb(var(--color-foreground));
   z-index: 13;
-  transition: 0.3s;
+}
   
  .header__menu-item:hover:before {
     width: 100%;
