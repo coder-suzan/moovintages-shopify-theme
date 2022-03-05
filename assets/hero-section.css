@@ -33,7 +33,12 @@
   
   .hero-section-inner img{
   width: 150px;
-}
+ }
+  
+ .hero-section:before{
+ height: 40px;
+ }
 
+  
 
 }
