@@ -2625,6 +2625,7 @@ details[open] > .header__menu-item .icon-caret {
   top: 50%;
   left: 0;
   backgroud-color: red;
+  z-index: 13;
 }
 
 .header__submenu {
