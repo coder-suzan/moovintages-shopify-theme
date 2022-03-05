@@ -28,15 +28,16 @@
 
 @media screen and (max-width: 990px){
   .hero-section{
-  margin-top: 50px;
+    margin-top: 50px;
  }
   
   .hero-section-inner img{
-  width: 150px;
+    width: 150px;
  }
   
  .hero-section:before{
- height: 40px;
+    height: 45px;
+    top: 15%;
  }
 
   
