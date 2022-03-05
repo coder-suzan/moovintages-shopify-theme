@@ -10,3 +10,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero-section-inner img{
+  width: 300px;
+}
