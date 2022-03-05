@@ -2237,7 +2237,7 @@ input[type='checkbox'] {
     height: 3px;
     top: 50%;
     left: 0;
-    background-color: red;
+    background-color: rgb(var(--color-foreground));
     z-index: 1;
   }
 
