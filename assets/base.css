@@ -2381,6 +2381,7 @@ input[type='checkbox'] {
   margin-right: -1.2rem;
   background: #fff;
   z-index: 13;
+  margin-left: 2rem;
 }
 
 @media screen and (max-width: 989px) {
@@ -2419,7 +2420,6 @@ menu-drawer + .header__search {
   line-height: 0;
   background: #fff;
   z-index: 13;
-  margin-left: 2rem;
 }
 
 .header--top-center > .header__search {
