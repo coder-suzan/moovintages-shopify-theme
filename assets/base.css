@@ -2624,7 +2624,7 @@ details[open] > .header__menu-item .icon-caret {
   height: 3px;
   top: 50%;
   left: 0;
-  backgroud-color: red;
+  backgroud-color: rgb(var(--color-foreground));
   z-index: 13;
 }
 
