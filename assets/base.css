@@ -2619,13 +2619,17 @@ details[open] > .header__menu-item .icon-caret {
 .header__menu-item:before {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 0%;
   height: 3px;
   top: 50%;
   left: 0;
-  backgroud-color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-foreground));
   z-index: 13;
-}
+  transition: 0.3s;
+  
+ .header__menu-item:hover:before {
+    width: 100%;
+  }
 
 .header__submenu {
   transition: opacity var(--duration-default) ease,
