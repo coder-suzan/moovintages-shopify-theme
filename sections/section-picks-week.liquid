@@ -3,7 +3,9 @@
 
 <div class="picks-week page-width">
   <div class="picks-week__inner">
-    hello
+    {% for product in section.collection.products %}
+    <h2> {{ product.title }} </h2>
+    {% endfor %}
   </div>
   
 </div>
