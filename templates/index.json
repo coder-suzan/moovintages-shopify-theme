@@ -16,6 +16,31 @@
     },
     "16464977175e2ce75a": {
       "type": "hero",
+      "blocks": {
+        "b930caf5-82fc-43a8-9379-0fa73d666318": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach"
+          }
+        },
+        "b5eb8bf7-088f-4d9b-8448-c09f48925ef1": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
+        },
+        "dd5e2b38-cc36-4c10-92e6-f80963fa9b72": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work"
+          }
+        }
+      },
+      "block_order": [
+        "b930caf5-82fc-43a8-9379-0fa73d666318",
+        "b5eb8bf7-088f-4d9b-8448-c09f48925ef1",
+        "dd5e2b38-cc36-4c10-92e6-f80963fa9b72"
+      ],
       "settings": {
       }
     }
