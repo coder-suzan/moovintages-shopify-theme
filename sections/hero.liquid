@@ -10,11 +10,11 @@
 <div class="hero-collection page-width">
   <div class="hero-collection__inner">
     {% for block in section.blocks %}
-     <a href="{{ block.settings.collection.url }}">
-        <div style="background-image: url({{ block.settings.collection.image | img_url: "medium" }})" class="hero-collection__inner-content">
-            <div style="background-image: url('block.settings.image_bg | img_url: "medium"')"></div>
+     <a class="hero-collection__card" href="{{ block.settings.collection.url }}">
+        <div style="background-image: url({{ block.settings.image_bg | img_url: "medium" }})" class="hero-collection__inner-content">
+            <div style="background-image: url({{ block.settings.image_hover | img_url: "medium" }})"></div>
             <div></div>
-            <h3> {{ block.settings.collection.title }} </h3>
+            <h3 class="hero-collection__inner-content__title"> {{ block.settings.collection.title }} </h3>
         </div>
       </a>
     {% endfor %}
