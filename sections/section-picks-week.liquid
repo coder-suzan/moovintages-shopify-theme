@@ -12,7 +12,7 @@
                 <span>
                   {% if product.tags contains "New" %} new in 
                     {% elsif product.tags contains "Fave" %} staff</br>fave 
-                    {% elsif product.price_at_compare != blank %} sale
+                    {% elsif product.compare_at_price != blank %} sale
                   {% endif %}
                 </span>
               </div>
