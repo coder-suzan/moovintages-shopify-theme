@@ -30,3 +30,7 @@
 .picks-week__card-content img{
   width: 70%;
 }
+
+.picks-week__inner-url{
+  text-decoration: none;
+}
