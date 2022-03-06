@@ -8,3 +8,12 @@
     text-align: center;
     
 }
+
+.picks-week__card-ctn {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
