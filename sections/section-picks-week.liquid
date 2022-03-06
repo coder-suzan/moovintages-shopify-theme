@@ -5,6 +5,7 @@
   <div class="picks-week__inner">
     <h2 class="picks-week__inner-title"> {{ section.settings.collection_name | downcase }} </h2>
     {% for product in section.settings.collection.products %}
+    <img src="{{ product.images[0].src | img_url }}"
     <h3> {{ product.title }} </h3>
     <span> {{ product.price | money }} </span>
     {% endfor %}
