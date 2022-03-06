@@ -6,11 +6,11 @@
     <h2 class="picks-week__inner-title"> {{ section.settings.collection_name | downcase }} </h2>
     <div class="picks-week__card-ctn">
       {% for product in section.settings.collection.products %}
-         <a href="{{ product.url }}">
+         <a class="picks-week__inner-url" href="{{ product.url }}">
             <div class="picks-week__card-content">
-              <img src="{{ product.images[0].src | img_url: "large" }}"
-              <h3> {{ product.title }} </h3>
-              <span> {{ product.price | money }} </span>
+              <img src="{{ product.images[0].src | img_url: "large" }}">
+              <h3 class="picks-week__card-content__title"> {{ product.title }} </h3>
+              <span class="picks-week__card-content__price> {{ product.price | money }} </span>
             </div>
          </a>
       {% endfor %}
