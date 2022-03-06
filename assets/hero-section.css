@@ -50,7 +50,7 @@
   transition: opacity 0.3s;
 }
 
-.hero-collection__card:hover .hero-collection__inner-content__title{
+.hero-collection__card:hover > .hero-collection__inner-content__title{
   opacity: 0;
   transition: none;
 }
