@@ -11,7 +11,8 @@
               <div class="bubble-tag bubble{{ if }}">
                 <span>
                   {% if product.tags contains "New" %} new in 
-
+                    {% elsif product.tags contains "Fave" %} staff</br>fave 
+                    {% elsif product.price_at_compare != blank %} sale
                   {% endif %}
                 </span>
               </div>
