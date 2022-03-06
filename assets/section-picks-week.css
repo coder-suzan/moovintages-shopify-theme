@@ -32,6 +32,8 @@
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 220px;
+  height: 200px;
 }
 
 .bubble--new{
