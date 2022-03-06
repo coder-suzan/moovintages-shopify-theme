@@ -30,6 +30,9 @@
   top: 0;
   right: 10px;
   background: red;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .picks-week__card-content{
