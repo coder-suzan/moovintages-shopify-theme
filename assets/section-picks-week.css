@@ -42,6 +42,7 @@
 
 .bubble--fave{
   background-image: url("bubble-fave.svg");
+  color: #fff;
 }
 
 .bubble--sale{
