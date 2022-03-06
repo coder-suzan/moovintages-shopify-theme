@@ -9,7 +9,7 @@
          <a class="picks-week__inner-url" href="{{ product.url }}">
             <div class="picks-week__card-content">
               <span class="bubble-tag bubble{{ if }}">
-                {% if product.tags contains "new"%} New {% endif %}
+                {% if product.tags contains new %} new in {% endif %}
               </span>
               <img src="{{ product.images[0].src | img_url: "large" }}">
               <h3 class="picks-week__card-content__title"> {{ product.title }} </h3>
