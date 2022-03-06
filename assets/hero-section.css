@@ -65,7 +65,17 @@
   transition: none;
  }
 
-.hero-collection__inner-content__bg-image{
+/* .hero-collection__inner-content__bg-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+} */
+
+.hero-collection__inner-content__hover-image {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
