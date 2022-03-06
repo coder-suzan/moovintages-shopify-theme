@@ -33,4 +33,5 @@
 
 a.picks-week__inner-url{
   text-decoration: none;
+  color: rgb(var(--color-foreground))
 }
