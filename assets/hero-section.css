@@ -34,6 +34,10 @@
     margin: 50px auto;
 }
 
+..hero-collection__inner-content{
+  background-color: red;
+}
+
 @media screen and (max-width: 990px){
   .hero-section{
     margin-top: 50px;
