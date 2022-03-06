@@ -53,12 +53,12 @@
 
 .hero-collection__inner-content__title{
   color: #fff;
-  opacity: 1;
+  display: block;
   transition: opacity 0.3s;
 }
 
 .hero-collection__card:hover > .hero-collection__inner-content__title{
-  opacity: 0;
+  display: none;
   transition: none;
 }
 
