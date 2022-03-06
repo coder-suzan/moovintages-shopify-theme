@@ -87,7 +87,7 @@
   display: none;
 }
 
-.hero-collection__inner-content__bg-image:hover .hero-collection__inner-content__bg-image{
+.hero-collection__inner-content__bg-image:hover .hero-collection__inner-content__hover-image{
   display: block;
 }
 
