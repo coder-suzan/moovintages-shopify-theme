@@ -17,31 +17,34 @@
     "16464977175e2ce75a": {
       "type": "hero",
       "blocks": {
-        "b930caf5-82fc-43a8-9379-0fa73d666318": {
-          "type": "collection",
-          "settings": {
-            "collection": "beach",
-            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
-          }
-        },
         "b5eb8bf7-088f-4d9b-8448-c09f48925ef1": {
           "type": "collection",
           "settings": {
             "collection": "denim",
-            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
+        },
+        "b930caf5-82fc-43a8-9379-0fa73d666318": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
           }
         },
         "dd5e2b38-cc36-4c10-92e6-f80963fa9b72": {
           "type": "collection",
           "settings": {
             "collection": "back-to-work",
-            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
           }
         }
       },
       "block_order": [
-        "b930caf5-82fc-43a8-9379-0fa73d666318",
         "b5eb8bf7-088f-4d9b-8448-c09f48925ef1",
+        "b930caf5-82fc-43a8-9379-0fa73d666318",
         "dd5e2b38-cc36-4c10-92e6-f80963fa9b72"
       ],
       "settings": {
