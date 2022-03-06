@@ -14,7 +14,7 @@
         <div class="hero-collection__inner-content">
             <div class="hero-collection__inner-content__bg-image" style="background-image: url({{ block.settings.image_bg | img_url: "medium" }})"></div>
             <div class="hero-collection__inner-content__hover-image" style="background-image: url({{ block.settings.image_hover | img_url: "medium" }})"></div>
-            <h3 class="hero-collection__inner-content__title"> {{ block.settings.collection.title }} </h3>
+            <h3 class="hero-collection__inner-content__title"> {{ block.settings.collection.title | downcase }} </h3>
         </div>
       </a>
     {% endfor %}
