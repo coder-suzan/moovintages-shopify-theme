@@ -1,3 +1,5 @@
 .picks-week__inner-title {
   font-size: calc(var(--font-heading-scale) * 4rem);
+    text-align: center;
+    
 }
