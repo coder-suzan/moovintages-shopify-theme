@@ -40,3 +40,8 @@ picks-week__card-content__title{
   font-size: 25px;
   font-weight: 600;
 }
+
+picks-week__card-content__price{
+  font-size: 30px;
+  font-weight: 700;
+}
