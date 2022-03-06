@@ -19,6 +19,7 @@
 
 .picks-week__card-content{
   display: flex;
+  flex-direction: columns;
   align-items: center;
   justify-content: center;
 }
