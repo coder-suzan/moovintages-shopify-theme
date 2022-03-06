@@ -26,7 +26,7 @@
 }
 
 .hero-collection__card{
-  transition: 0.5s;
+  transition: display 0.5s;
 }
 
 .hero-section-inner img{
