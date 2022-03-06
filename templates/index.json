@@ -49,10 +49,17 @@
       ],
       "settings": {
       }
+    },
+    "164656859285206e29": {
+      "type": "section-picks-week",
+      "settings": {
+        "collection": ""
+      }
     }
   },
   "order": [
     "video",
-    "16464977175e2ce75a"
+    "16464977175e2ce75a",
+    "164656859285206e29"
   ]
 }
