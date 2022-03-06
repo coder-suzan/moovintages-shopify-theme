@@ -1,5 +1,6 @@
 .picks-week{
   margin: 100px auto;
+  position: relative;
 }
 
 .picks-week__inner-title {
