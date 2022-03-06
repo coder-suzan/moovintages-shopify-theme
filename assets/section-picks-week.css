@@ -37,8 +37,17 @@
 }
 
 .bubble--new{
-  
+  background-image: url("");
 }
+
+.bubble--fave{
+  background-image: url("bubble-fave.svg");
+}
+
+.bubble--sale{
+  background-image: url("");
+}
+
 
 .picks-week__card-content{
   position: relative;
