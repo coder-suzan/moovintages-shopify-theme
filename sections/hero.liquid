@@ -10,7 +10,7 @@
 <div class="hero-collection page-width">
   <div class="hero-collection__inner">
     {% for block in section.blocks %}
-    <div style="background-image: url('block.settings.collection.image | img_url: "medium"')" class="hero-collection__inner-content">
+    <div style="background-image: url({{ block.settings.collection.image | img_url: "medium" }})" class="hero-collection__inner-content">
        <a href="{{ block.settings.collection.url }}">
         <div style="background-image: url('block.settings.image_bg | img_url: "medium"')"></div>
         <div></div>
