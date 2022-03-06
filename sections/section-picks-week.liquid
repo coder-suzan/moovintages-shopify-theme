@@ -6,7 +6,7 @@
     <h2 class="picks-week__inner-title"> {{ section.settings.collection_name | downcase }} </h2>
     {% for product in section.settings.collection.products %}
     <h3> {{ product.title }} </h3>
-    <span> {{ product.price }} </span>
+    <span> {{ product.price | money }} </span>
     {% endfor %}
   </div>
   
