@@ -46,6 +46,7 @@
 }
 
 .hero-collection__inner-content__title{
+  color: #fff;
   opacity: 1;
   transition: opacity 0.3s;
 }
