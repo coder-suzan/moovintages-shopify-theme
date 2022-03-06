@@ -29,10 +29,15 @@
   height: 150px;
   top: 0;
   right: 10px;
-  background: red;
   display: grid;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bubble--new{
+  
 }
 
 .picks-week__card-content{
