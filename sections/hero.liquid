@@ -10,19 +10,31 @@
 
 {% schema %}
   {
-    "name": "Hero Section",
-    "settings": [],
+ 	"name": "Hero Section",
+ 	"settings": [],
+ 	"blocks": [{
+ 		"name": "Collection",
+ 		"type": "collection",
+ 		"settings": [{
+ 				"type": "collection",
+ 				"id": "collection",
+ 				"label": "Collection"
+ 			},
+ 			{
+ 				"type": "image_picker",
+ 				"id": "image_bg",
+ 				"label": "Background Image"
+ 			},
+ 			{
+ 				"type": "image_picker",
+ 				"id": "image_hover",
+ 				"label": "Hover Image"
+ 			}
+ 		]
+ 	}],
 
-   "presets": [
-     {
-        "name": "Hero"
-     }
-  ]
-  }
+ 	"presets": [{
+ 		"name": "Hero"
+ 	}]
+ }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
