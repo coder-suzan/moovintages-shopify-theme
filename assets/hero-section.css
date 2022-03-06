@@ -35,7 +35,7 @@
 }
 
 .hero-collection__inner a{
-   underline: none;
+   text-decoration: none;
 }
 
 .hero-collection__inner-content{
@@ -53,7 +53,6 @@
 
 .hero-collection__inner-content__title{
   color: #fff;
-  underline: none;
   opacity: 1;
   transition: opacity 0.3s;
 }
