@@ -4,15 +4,15 @@
 <div class="picks-week page-width">
   <div class="picks-week__inner">
     <h2 class="picks-week__inner-title"> {{ section.settings.collection_name | downcase }} </h2>
-    {% for product in section.settings.collection.products %}
-       <div class="picks-week__card-ctn">
-         <div class="picks-week__card-content">
-            <img src="{{ product.images[0].src | img_url: "large" }}"
-            <h3> {{ product.title }} </h3>
-            <span> {{ product.price | money }} </span>
+    <div class="picks-week__card-ctn">
+      {% for product in section.settings.collection.products %}
+           <div class="picks-week__card-content">
+              <img src="{{ product.images[0].src | img_url: "large" }}"
+              <h3> {{ product.title }} </h3>
+              <span> {{ product.price | money }} </span>
+           </div>
          </div>
-       </div>
-    {% endfor %}
+      {% endfor %}
   </div>
   
 </div>
