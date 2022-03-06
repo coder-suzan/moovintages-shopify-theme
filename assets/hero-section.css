@@ -57,12 +57,13 @@
   color: #fff;
   display: block;
   transition: opacity 0.3s;
+  z-index: 1;
 }
 
-/* .hero-collection__card:hover > .hero-collection__inner-content{
+ .hero-collection__card:hover > .hero-collection__inner-content__title{
   display: none;
   transition: none;
-} */
+ }
 
 .hero-collection__inner-content__bg-image{
   background-size: cover;
