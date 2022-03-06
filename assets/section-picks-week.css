@@ -37,7 +37,7 @@
 }
 
 .bubble--new{
-  background-image: url("");
+  background-image: url("bubble-new.svg");
 }
 
 .bubble--fave{
@@ -45,7 +45,7 @@
 }
 
 .bubble--sale{
-  background-image: url("");
+  background-image: url("bubble-sale.svg");
 }
 
 
