@@ -45,7 +45,7 @@
   border: 2px solid #000000;
 }
 
-.hero-collection__card:hover > .hero-collection__inner-content__title{
+.hero-collection__card:hover .hero-collection__inner-content__title{
   opacity: 0;
   transition: none;
 }
