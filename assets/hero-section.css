@@ -35,6 +35,9 @@
 }
 
 .hero-collection__inner-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #E8EFFA;
 }
 
