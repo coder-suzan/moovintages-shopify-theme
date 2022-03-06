@@ -16,7 +16,7 @@
                   {% endif %}
                 </span>
               </div>
-              <img src="{{ product.images[1].src | img_url: "large" }}">
+              <img src="{{ product.images[0].src | img_url: "large" }}">
               <h3 class="picks-week__card-content__title"> {{ product.title }} </h3>
               <h2 class="picks-week__card-content__price"> {{ product.price | money }} </h2>
             </div>
