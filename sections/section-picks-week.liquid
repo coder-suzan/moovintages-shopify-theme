@@ -8,9 +8,13 @@
       {% for product in section.settings.collection.products %}
          <a class="picks-week__inner-url" href="{{ product.url }}">
             <div class="picks-week__card-content">
-              <span class="bubble-tag bubble{{ if }}">
-                {% if product.tags contains new %} new in {% endif %}
-              </span>
+              <div class="bubble-tag bubble{{ if }}">
+                <span>
+                  {% if product.tags contains "New" %} new in 
+
+                  {% endif %}
+                </span>
+              </div>
               <img src="{{ product.images[0].src | img_url: "large" }}">
               <h3 class="picks-week__card-content__title"> {{ product.title }} </h3>
               <h2 class="picks-week__card-content__price"> {{ product.price | money }} </h2>
