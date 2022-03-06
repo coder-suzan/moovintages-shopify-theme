@@ -21,7 +21,6 @@
     margin-top: 50px;
     width: 100%;
     text-align: center;
-    position: relative;
 }
 
 .bubble-tag{
@@ -34,6 +33,7 @@
 }
 
 .picks-week__card-content{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
