@@ -39,6 +39,8 @@
   align-items: center;
   justify-content: center;
   background-color: #E8EFFA;
+  width: 100%;
+  height: 250px;
 }
 
 @media screen and (max-width: 990px){
