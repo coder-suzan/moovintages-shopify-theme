@@ -20,19 +20,22 @@
         "b930caf5-82fc-43a8-9379-0fa73d666318": {
           "type": "collection",
           "settings": {
-            "collection": "beach"
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
           }
         },
         "b5eb8bf7-088f-4d9b-8448-c09f48925ef1": {
           "type": "collection",
           "settings": {
-            "collection": "denim"
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
           }
         },
         "dd5e2b38-cc36-4c10-92e6-f80963fa9b72": {
           "type": "collection",
           "settings": {
-            "collection": "back-to-work"
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
           }
         }
       },
