@@ -25,6 +25,10 @@
   position: relative;
 }
 
+.hero-collection__card{
+  transition: 0.5s;
+}
+
 .hero-section-inner img{
   width: 200px;
   z-index: 1;
