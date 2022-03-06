@@ -57,7 +57,7 @@
   transition: opacity 0.3s;
 }
 
-.hero-collection__inner-content:hover > .hero-collection__inner-content__title{
+.hero-collection__card:hover > .hero-collection__inner-content{
   display: none;
   transition: none;
 }
