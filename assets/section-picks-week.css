@@ -16,3 +16,13 @@
     align-content: center;
     align-items: center;
 }
+
+.picks-week__card-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picks-week__card-content img{
+  width: 70%;
+}
