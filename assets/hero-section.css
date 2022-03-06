@@ -87,8 +87,14 @@
   display: none;
 }
 
+
+
 .hero-collection__card:hover .hero-collection__inner-content__hover-image{
   display: block;
+}
+
+.hero-collection__card:hover .hero-collection__inner-content__bg-image{
+  display: none;
 }
 
 @media screen and (max-width: 990px){
