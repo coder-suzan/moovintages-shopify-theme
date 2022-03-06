@@ -50,6 +50,7 @@
   height: 250px; 
   border-radius: 10px;
   border: 2px solid #000000;
+  position: relative;
 }
 
 .hero-collection__inner-content__title{
