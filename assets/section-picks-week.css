@@ -24,7 +24,14 @@
     position: relative;
 }
 
-
+.bubble-tag{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  top: 0;
+  right: 0;
+  background: red;
+}
 
 .picks-week__card-content{
   display: flex;
