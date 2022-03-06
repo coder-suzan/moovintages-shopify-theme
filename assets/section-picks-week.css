@@ -35,3 +35,8 @@ a.picks-week__inner-url{
   text-decoration: none;
   color: rgb(var(--color-foreground))
 }
+
+picks-week__card-content__title{
+  font-size: 25px;
+  font-weight: 600;
+}
