@@ -40,8 +40,9 @@ a.picks-week__inner-url{
 }
 
 .picks-week__card-content__title{
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
 }
 
 .picks-week__card-content__price{
