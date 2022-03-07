@@ -26,11 +26,17 @@
  background-color: rgb(var(--color-foreground));
 }
 
+
+.collection-grid__content:hover .collection-grid__card-title {
+  color: #fff;
+}
+
 .collection-grid__card-image{
  width: 90%;
 }
 
-h2.collection-grid__card-title{
+.collection-grid__card-title{
   margin: 0;
   font-size: 30px;
+  color: rgb(var(--color-foreground));
 }
