@@ -1,11 +1,10 @@
 {{ "moo-footer.css" | asset_url | stylesheet_tag }}
 
 <footer class="moo-footer page-width"> hh
-  {% for link in section.settings.footer_link %}
-     <a href="{{ link.url }}">
-      {{ link.title }}
-     </a>
+  {% for link in linklists.main-menu.links %}
+    <a href="{{ link.url }}">{{ link.title }}</a>
   {% endfor %}
+
 </footer>
 
 {% schema %}
