@@ -20,8 +20,6 @@
   justify-content: center;
   text-align: center;
   transition: ease-in-out 0.3s;
-  width: 450px;
-  height: 480px;
 }
 
 .collection-grid__content:hover {
