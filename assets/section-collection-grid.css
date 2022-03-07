@@ -5,3 +5,10 @@
 .collection-grid__header{
   text-align: center;
 }
+
+.collection-grid__wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+  gap: 30px;
+}
