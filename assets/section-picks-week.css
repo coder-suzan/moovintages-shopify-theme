@@ -93,4 +93,9 @@ a.picks-week__inner-url{
   .picks-week__inner-title {
     font-size: 30px;
   }
+  
+  .bubble-tag span{
+    font-size: 10x;
+  }
+
 }
