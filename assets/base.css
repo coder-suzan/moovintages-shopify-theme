@@ -2893,7 +2893,7 @@ details-disclosure > details {
     position: relative;
   }
 
-  @media screen and (min-width: 768px){
+  @media screen and (max-width: 768px){
     .moo-footer{
        margin-top: 50px 0 10px 0;
     }
