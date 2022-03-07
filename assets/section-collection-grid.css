@@ -21,6 +21,9 @@
   text-align: center;
   transition: ease-in-out 0.3s;
 }
+.collection-grid__card{
+  text-decoration: none;
+}
 
 .collection-grid__content:hover {
  background-color: rgb(var(--color-foreground));
