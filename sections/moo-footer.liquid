@@ -1,7 +1,11 @@
 {{ "moo-footer.css" | asset_url | stylesheet_tag }}
 
 <footer class="moo-footer">
-  hello
+  {% for link in section.settings.footer_link %}
+     <a href="{{ link.url }}">
+        link
+     </a>
+  {% endfor %}
 </footer>
 
 {% schema %}
