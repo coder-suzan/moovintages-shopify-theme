@@ -2872,3 +2872,28 @@ details-disclosure > details {
     }
   }
 }
+
+  
+/*Moo footer design*/
+ .moo-footer{
+    margin-top: 100px 0 20px 0;
+    position: relative;
+  }
+  
+  .moo-footer:befor{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    
+  }
+  
+  @media screen and (min-width: 768px){
+    .moo-footer{
+       margin-top: 50px;
+    }
+  
+  }
