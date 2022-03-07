@@ -5,9 +5,9 @@
 
 .picks-week__inner-title {
   font-size: 40px;
+  font-weight: bold;
   text-align: center;
   margin: 0;
-    
 }
 
 .picks-week__card-ctn {
@@ -82,8 +82,11 @@ a.picks-week__inner-url{
   margin: 0;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 768px){
  .picks-week{
      margin: 50px auto;
- }
+  }
+  .picks-week__inner-title {
+    font-size: 30px;
+  }
 }
