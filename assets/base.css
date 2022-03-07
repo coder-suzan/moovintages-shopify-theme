@@ -2889,8 +2889,6 @@ details-disclosure > details {
     font-size: 24px;
     color: rgb(var(--color-foreground));
     margin-left: 100px;
-    position: absolute;
-    left: 0;
     top: -30px;
   }
 
