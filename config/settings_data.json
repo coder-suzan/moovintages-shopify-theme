@@ -171,6 +171,12 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "moo-footer": {
+        "type": "moo-footer",
+        "settings": {
+          "footer_link": "footer"
+        }
       }
     },
     "content_for_index": [
