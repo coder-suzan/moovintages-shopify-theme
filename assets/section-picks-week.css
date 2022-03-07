@@ -95,7 +95,15 @@ a.picks-week__inner-url{
   }
   
   .bubble-tag span{
-    font-size: 10px;
+    font-size: 14px;
+  }
+  
+  .picks-week__card-content__title {
+    font-size: 18px;
+  }
+  
+  .picks-week__card-content__price {
+    font-size: 20px;
   }
 
 }
