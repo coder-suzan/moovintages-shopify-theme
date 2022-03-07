@@ -26,6 +26,10 @@
  background-color: rgb(var(--color-foreground));
 }
 
+.collection-grid__card-image{
+ width: 80%;
+}
+
 h2.collection-grid__card-title{
   margin: 0;
   font-size: 30px;
