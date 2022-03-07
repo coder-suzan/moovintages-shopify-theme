@@ -82,7 +82,7 @@ a.picks-week__inner-url{
   margin: 0;
 }
 
-@media screen and (min-width: 990px){
+@media screen and (max-width: 990px){
  .picks-week{
      margin: 50px auto;
  }
