@@ -53,13 +53,53 @@
     "164656859285206e29": {
       "type": "section-picks-week",
       "settings": {
-        "collection": "picks-of-the-week"
+        "collection": "picks-of-the-week",
+        "collection_name": "Picks of The Week"
+      }
+    },
+    "16466325801dcafaf5": {
+      "type": "collection-grid",
+      "blocks": {
+        "506a8414-b76d-4399-915b-484ef245c611": {
+          "type": "collection",
+          "settings": {
+            "collection": "top"
+          }
+        },
+        "f8f36dec-4c95-4db9-95cb-89c14c8a8a7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "56ededc9-b4cd-481c-981d-df5fa98c306f": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim-1"
+          }
+        }
+      },
+      "block_order": [
+        "506a8414-b76d-4399-915b-484ef245c611",
+        "f8f36dec-4c95-4db9-95cb-89c14c8a8a7b",
+        "56ededc9-b4cd-481c-981d-df5fa98c306f",
+        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742"
+      ],
+      "settings": {
+        "collection_header": "take a look around"
       }
     }
   },
   "order": [
     "video",
     "16464977175e2ce75a",
-    "164656859285206e29"
+    "164656859285206e29",
+    "16466325801dcafaf5"
   ]
 }
