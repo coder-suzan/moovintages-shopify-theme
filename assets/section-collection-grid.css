@@ -42,4 +42,5 @@
   margin: 0;
   font-size: 30px;
   color: rgb(var(--color-foreground));
+   margin-bottom: 20px;
 }
