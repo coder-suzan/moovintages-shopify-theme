@@ -2889,7 +2889,7 @@ details-disclosure > details {
     font-size: 24px;
     color: rgb(var(--color-foreground));
     margin-left: 100px;
-    top: -30px;
+    top: -25px;
     position: relative;
   }
 
