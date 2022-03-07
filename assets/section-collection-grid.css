@@ -42,6 +42,7 @@
 .collection-grid__card-title{
   margin: 0;
   font-size: 30px;
+  font-weight: 600;
   color: rgb(var(--color-foreground));
   margin-bottom: 20px;
 }
