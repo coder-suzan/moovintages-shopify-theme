@@ -2880,6 +2880,7 @@ details-disclosure > details {
     background-color: #E8EFFA;
     width: 100%;
     height: 60px;
+    position: relative;
   }
   
   .moo-footer__links a{
@@ -2888,6 +2889,9 @@ details-disclosure > details {
     font-size: 24px;
     color: rgb(var(--color-foreground));
     margin-left: 100px;
+    position: absolute;
+    left: 0;
+    top: -30px;
   }
 
   @media screen and (min-width: 768px){
