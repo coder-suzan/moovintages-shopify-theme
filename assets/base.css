@@ -2895,8 +2895,8 @@ details-disclosure > details {
 
   @media screen and (min-width: 768px){
     .moo-footer{
-       margin-top: 50px;
+       margin-top: 50px 0 10px 0;
     }
     .moo-footer__links a{
-    margin-left: 40px;
+    margin-left: 30px;
   }
