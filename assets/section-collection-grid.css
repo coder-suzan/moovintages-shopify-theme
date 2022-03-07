@@ -25,3 +25,8 @@
 .collection-grid__content:hover {
  background-color: rgb(var(--color-foreground));
 }
+
+.collection-grid__card-title{
+  margin: 0;
+  font-size: 30px;
+}
