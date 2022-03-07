@@ -175,7 +175,7 @@
       "moo-footer": {
         "type": "moo-footer",
         "settings": {
-          "footer_link": "footer"
+          "footer_link": "main-menu"
         }
       }
     },
