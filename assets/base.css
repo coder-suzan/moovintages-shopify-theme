@@ -2884,7 +2884,7 @@ details-disclosure > details {
   
   .moo-footer__links a{
     text-decoration: none;
-    font-family: var(--font-headin-family);
+    font-family: var(--font-heading-family);
     font-size: 24px;
     color: rgb(var(--color-foreground));
     margin-left: 100px;
