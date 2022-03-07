@@ -7,8 +7,8 @@
     {% for block in section.blocks %}
     <div class="collection-grid__content">
        <a class="collection-grid__card" href={{ block.settings.collection }}">
-         <img class="collection-grid__card-image" src="{{ block.settings.collection.image | img_url: "large" }}">
-         <h3> {{ block.settings.collection.title | downcase }} </h3>
+         <img class="collection-grid__card-image" src='{{ block.settings.collection.image | img_url: "large" }}'>
+         <h3 class="collection-grid__card-title"> {{ block.settings.collection.title | downcase }} </h3>
        </a>
      </div>
     {% endfor %}
