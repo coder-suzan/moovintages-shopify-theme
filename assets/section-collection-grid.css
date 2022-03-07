@@ -8,8 +8,8 @@
 
 .collection-grid__wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 430x));
+  grid-template-rows: repeat(auto-fit, minmax(380px, 480px));
   gap: 30px;
 }
 
