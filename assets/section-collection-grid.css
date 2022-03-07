@@ -11,5 +11,8 @@
   grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
   gap: 30px;
+}
+
+.collection-grid__content{
   border: 2px solid rgb(var(--color-foreground));
 }
