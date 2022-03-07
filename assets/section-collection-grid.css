@@ -15,4 +15,7 @@
 
 .collection-grid__content{
   border: 2px solid rgb(var(--color-foreground));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
