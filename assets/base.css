@@ -2876,7 +2876,7 @@ details-disclosure > details {
   
 /*Moo footer design*/
  .moo-footer{
-    margin-top: 100px;
+    margin-top: 100px 0 20px 0;
     position: relative;
   }
   
