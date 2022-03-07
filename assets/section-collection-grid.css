@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: 0.5s;
 }
 
 .collection-grid__content:hover {
