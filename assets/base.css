@@ -2897,5 +2897,6 @@ details-disclosure > details {
     .moo-footer{
        margin-top: 50px;
     }
-  
+    .moo-footer__links a{
+    margin-left: 40px;
   }
