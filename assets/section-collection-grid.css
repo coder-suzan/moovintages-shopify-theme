@@ -8,8 +8,8 @@
 
 .collection-grid__wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(400px, 1ft));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(480px, 1ft));
   gap: 30px;
 }
 
@@ -20,14 +20,15 @@
   justify-content: center;
   text-align: center;
   transition: ease-in-out 0.3s;
-  height: 600px;
+  width: 450px;
+  height: 480px;
 }
 
 .collection-grid__content:hover {
  background-color: rgb(var(--color-foreground));
 }
 
-.collection-grid__card-title{
+h3.collection-grid__card-title{
   margin: 0;
   font-size: 30px;
 }
