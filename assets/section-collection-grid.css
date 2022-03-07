@@ -55,6 +55,11 @@
   }
   
   .collection-grid__header{
-  font-size: 30px;
+    font-size: 30px;
  }
+  
+  .collection-grid {
+    margin: 50px auto;
+  }
+
 }
