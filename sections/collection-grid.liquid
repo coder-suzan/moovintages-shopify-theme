@@ -1,14 +1,40 @@
 {{ "section-collection-grid.css" | asset_url | stylesheet_tag }}
 
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Collection Grid",
+    "settings": [
+       {
+          "type": "text",
+          "id": "collection_header",
+          "label": "Collection Header",
+          "default": "take a look around"
+       }
+    ],
+  
+    "blocks": [
+       {
+         "name": "Collection Grid",
+         "type": "collection",
+         "limit": 4,
+         "settings": [
+            {
+              "type": "collection",
+              "id": "collection",
+              "label": "Select your collection"
+            }
+         ]
+       }
+    ],
+
+    "presets":[
+       {
+         "name": "Collection Grid"
+       }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
