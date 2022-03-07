@@ -2,7 +2,7 @@
 
 
 <div class="collection-grid page-width">
-  <h2> {{ section.settings.collection_header }} </h2>
+  <h2 class="collection-grid__header"> {{ section.settings.collection_header }} </h2>
   <div class="collection-grid__wrapper">
     {% for block in section.blocks %}
        <a class="collection-grid__card" href={{ block.settings.collection }}">
