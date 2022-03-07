@@ -26,7 +26,7 @@
  background-color: rgb(var(--color-foreground));
 }
 
-h3.collection-grid__card-title{
+h2.collection-grid__card-title{
   margin: 0;
   font-size: 30px;
 }
