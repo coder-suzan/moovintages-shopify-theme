@@ -128,7 +128,6 @@
 }
 
 .collection-product-tag-inline{
-  position: absolute;
   display: flex;
   flex-direction: row;
   text-align: center;
