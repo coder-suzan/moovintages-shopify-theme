@@ -127,8 +127,8 @@
 
 }
 
-.collection-product-tag-inline{
+.collection-product-tag-inline span{
   display: flex;
   flex-direction: row;
-  text-align: center;
+  justify-content: center;
 }
