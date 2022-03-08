@@ -188,24 +188,32 @@
         }
       }
     
-    .bubble--new{
-      background-image: url({{ 'bubble-new.svg' | asset_url }});
+    .bubble-tag{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
       background-size: cover;
       background-repeat: no-repeat;
+      width: 110px;
+      height: 120px;
+    }
+
+    
+    .bubble--new{
+      background-image: url({{ 'bubble-new.svg' | asset_url }});
     }
 
     .bubble--fave{
       background-image: url({{ 'bubble-fave.svg' | asset_url }});
       color: #fff;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
 
     .bubble--sale{
       background-image: url({{ 'bubble-sale.svg' | asset_url }});
       color: #fff;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
 
 
