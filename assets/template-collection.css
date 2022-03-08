@@ -53,7 +53,7 @@
     content: "";
     width: 100% !important;
     height: 2px;
-    background-color: red;
+    background-color: rgb(var(--color-foreground));
     top: 76px;
     left: 0;
   }
