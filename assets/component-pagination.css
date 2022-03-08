@@ -41,7 +41,7 @@ a.pagination__item:hover::after {
   height: 0.1rem;
 }
 
-.pagination__item svg {
+.pagination__item--next pagination__item-arrowsvg {
     width: 20px;
     height: 20px;
 }
