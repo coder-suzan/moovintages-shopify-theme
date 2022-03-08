@@ -42,6 +42,10 @@
   margin-top: 2rem;
 }
 
+.light {
+  display: none;
+}
+
 @media screen and (min-width: 810px){
   /* main collection product filter line */
  .section-template--15415885758634__product-grid-padding {
