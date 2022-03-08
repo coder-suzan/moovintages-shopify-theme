@@ -16,9 +16,9 @@
         {{- collection.title | escape -}}
       </h1>
       
-      {% if collection.title contains "denim" %} shirts, blazers      
-        
-      {% endif %}
+      {% for tag in collection.all_tags %}     
+        {{ tag }}
+      {% endfor %}
       
 
 
