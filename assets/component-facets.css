@@ -197,6 +197,8 @@
 
 .facets__disclosure {
   margin-right: 3.5rem;
+  background-color: #fff;
+  padding: 0 30px;
 }
 
 .facets__summary {
