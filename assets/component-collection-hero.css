@@ -38,6 +38,7 @@
 
 .collection-hero__text-wrapper {
   flex-basis: 100%;
+  z-index: 7; 
 }
 
 @media screen and (min-width: 750px) {
