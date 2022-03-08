@@ -908,4 +908,9 @@ input.mobile-facets__checkbox {
   .facets-container{
     padding-top: 1rem;
   }
+  
+  .facets__disclosure {
+  margin-right: 2rem;
+}
+
 }
