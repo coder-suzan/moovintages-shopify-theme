@@ -117,3 +117,12 @@
     min-height: 20rem;
   }
 }
+
+
+@media screen and (max-width: 768px){
+   .collection-hero:before {
+       top: 40px;
+       height: 40px;
+}
+
+}
