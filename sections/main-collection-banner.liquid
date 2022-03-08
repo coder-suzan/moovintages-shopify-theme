@@ -16,11 +16,10 @@
         {{- collection.title | escape -}}
       </h1>
       
-      <span> 
-       {% for tag in product.tags %}
-          {{ tag }}
-       {% endfor %}
-     </span>
+      {% for tag in product.tags %}
+        <span> {{ tag }}  </span>
+      {% endfor %}
+    
 
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
