@@ -2929,18 +2929,13 @@ details-disclosure > details {
   font-size: 16px;
 }
 
-.bubble--new{
-  background-image: url("bubble-new.svg");
+.collection.page-width {
+    margin-bottom: 100px;
 }
 
-.bubble--fave{
-  background-image: url("bubble-fave.svg");
-  color: #fff;
+    
+@media screen and (max-width: 768px){
+    .collection.page-width {
+      margin-bottom: 50px;
+  }
 }
-
-.bubble--sale{
-  background-image: url("bubble-sale.svg");
-  color: #fff;
-}
-
-
