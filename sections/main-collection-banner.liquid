@@ -17,7 +17,7 @@
       </h1>
       
       {% for tag in collection.all_tags %}     
-          <span> {{ tag | add: "," }} </span>
+          <span> {{ tag | add: "," }}, </span>
       {% endfor %}
 
 
