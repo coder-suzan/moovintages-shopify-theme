@@ -20,6 +20,11 @@
         <div style="text-align: center;"> {{ tag | split: "," }} </div>
       {% endfor %}
       
+      {% for product_type in collection.all_types %}
+  {{ product_type | link_to_type }}
+{% endfor %}
+
+      
 
 
       {%- if section.settings.show_collection_description -%}
