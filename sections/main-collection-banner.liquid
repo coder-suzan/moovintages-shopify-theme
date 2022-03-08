@@ -17,7 +17,9 @@
       </h1>
       
       {% for tag in collection.all_tags %}     
-          <span> {{ tag | join: ","  }} </span>
+        <div class="collection-product-tag-inline">
+           <span> {{ tag | join: ","  }} </span>
+        </div>
       {% endfor %}
       
 
