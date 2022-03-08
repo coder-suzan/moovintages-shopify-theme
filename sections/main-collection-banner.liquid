@@ -17,9 +17,7 @@
       </h1>
       
       {% for tag in collection.all_tags %}     
-        <div style="text-align: center;">
           <span> {{ tag | split: "," }} </span>
-        </div>
       {% endfor %}
 
 
