@@ -19,7 +19,12 @@
       {% for tag in collection.all_tags %}     
           <span> {{ tag | join: ","  }} </span>
       {% endfor %}
-
+      
+{% if product.tags.size > 0 %}
+    {{ product.tags | join: ", " }}
+{% else %}
+    No tags
+{% endif %}
 
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
