@@ -17,6 +17,8 @@
 .pagination__list > li {
   flex: 1 0 4.4rem;
   max-width: 4.4rem;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .pagination__list > li:not(:last-child) {
