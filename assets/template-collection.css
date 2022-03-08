@@ -41,3 +41,20 @@
 .collection__view-all {
   margin-top: 2rem;
 }
+
+@media screen and (min-width: 810px){
+  /* main collection product filter line */
+ .section-template--15415885758634__product-grid-padding {
+    position: relative;
+  }
+
+ #main-collection-filters:before {
+    position: absolute;
+    content: "";
+    width: 100% !important;
+    height: 2px;
+    background-color: red;
+    top: 76px;
+    left: 0;
+  }
+}
