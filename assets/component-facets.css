@@ -27,6 +27,11 @@
   }
 }
 
+.active-facets__button-remove{
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .facet-filters {
   align-items: flex-start;
   display: flex;
