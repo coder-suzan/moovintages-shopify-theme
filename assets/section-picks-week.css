@@ -42,21 +42,6 @@
   font-size: 16px;
 }
 
-.bubble--new{
-  background-image: url("bubble-new.svg");
-}
-
-.bubble--fave{
-  background-image: url("bubble-fave.svg");
-  color: #fff;
-}
-
-.bubble--sale{
-  background-image: url("bubble-sale.svg");
-  color: #fff;
-}
-
-
 .picks-week__card-content{
   position: relative;
   display: flex;
