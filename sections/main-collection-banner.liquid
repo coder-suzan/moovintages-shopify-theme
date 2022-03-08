@@ -17,9 +17,8 @@
       </h1>
       
       {% for tag in product.tags %}
-        <span> {{ tag }}  </span>
-      {% endfor %}
-    
+        {{ tag }}
+     {% endfor %}
 
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
