@@ -269,6 +269,8 @@
 
 .card-information {
   width: 100%;
+  text-align: center;
+  font-size: 20px;
 }
 
 .card-information > * {
