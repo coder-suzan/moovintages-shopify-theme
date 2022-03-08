@@ -135,6 +135,7 @@
 
 .card__heading {
   margin-top: 0;
+  text-align: center;
 }
 
 .card__heading:last-child {
