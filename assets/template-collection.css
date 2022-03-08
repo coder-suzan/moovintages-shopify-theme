@@ -60,3 +60,14 @@
     left: 0;
   }
 }
+
+.collection.page-width {
+    margin-bottom: 100px;
+}
+
+    
+@media screen and (max-width: 768px){
+    .collection.page-width {
+      margin-bottom: 50px;
+  }
+}
