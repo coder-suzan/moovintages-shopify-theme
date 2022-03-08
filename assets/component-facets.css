@@ -380,12 +380,15 @@ button.facets__button {
 }
 
 .active-facets__button {
-  display: block;
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-  text-decoration: none;
+    display: block;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    text-decoration: none;
+    background-color: rgb(var(--color-foreground));
+    color: #fff;
+    border-radius: 50px;
 }
 
 span.active-facets__button-inner {
