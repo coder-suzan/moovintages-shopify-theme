@@ -41,7 +41,7 @@ a.pagination__item:hover::after {
   height: 0.1rem;
 }
 
-svg.icon.icon-caret {
+.pagination__item svg {
     width: 20px;
     height: 20px;
 }
