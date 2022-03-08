@@ -4,6 +4,7 @@
 
 .collection-hero:before {
  position: absolute;
+ content: "";
  top: 100px;
  left: 0;
  width: 100%;
