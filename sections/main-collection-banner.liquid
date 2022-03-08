@@ -17,14 +17,10 @@
       </h1>
       
       {% for tag in collection.all_tags %}     
-        <div style="text-align: center;"> {{ tag | split: "," }} </div>
+        <div style="text-align: center;">
+          <span> {{ tag | split: "," }} </span>
+        </div>
       {% endfor %}
-      
-      {% for product_type in collection.all_types %}
-  {{ product_type | link_to_type }}
-{% endfor %}
-
-      
 
 
       {%- if section.settings.show_collection_description -%}
