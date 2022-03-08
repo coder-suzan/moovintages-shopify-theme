@@ -16,12 +16,13 @@
         {{- collection.title | escape -}}
       </h1>
       
-      {% for tag in collection.all_tags %}     
-        <div class="collection-product-tag-inline">
-           <span> {{ tag | join: ","  }} </span>
-        </div>
-      {% endfor %}
       
+          
+     <div class="collection-product-tag-inline">
+        {% for tag in collection.all_tags %}
+             <span> {{ tag | join: ","  }} </span>
+        {% endfor %}
+     </div>
 
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
