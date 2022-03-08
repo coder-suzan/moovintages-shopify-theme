@@ -7,9 +7,7 @@
     }
   }
 {%- endstyle -%}
-      {% for tag in product.tags %}
-      <h1> {{ tag }} </h1>
-     {% endfor %}
+
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width">
     <div class="collection-hero__text-wrapper">
@@ -17,6 +15,8 @@
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
+      
+      {% if collection.title contains "denim" %} denim {% endif %}
       
 
 
