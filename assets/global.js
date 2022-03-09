@@ -1,3 +1,10 @@
+//Scroll to top js
+
+$("#toTop").click(function () {
+  $("html, body").animate({scrollTop: 0}, 800);
+})
+
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
