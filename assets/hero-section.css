@@ -118,6 +118,10 @@
 }
 
 /* hero parralax effect */
+.hero-collection{
+ position: relative; 
+}
+
 .parralax{
     position: relative;
     width: 100%;
