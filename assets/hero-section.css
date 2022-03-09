@@ -150,4 +150,5 @@
   background-image: url("parallax-left.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 20;
 }
