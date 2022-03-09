@@ -135,3 +135,7 @@
 .parralax-two {
     right: -60px;
 }
+
+.hero-collection{
+  position: relative;
+}
