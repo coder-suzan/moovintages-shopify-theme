@@ -215,6 +215,20 @@
       background-image: url({{ 'bubble-sale.svg' | asset_url }});
       color: #fff;
     }
+    
+    /* scroll to top button css */
+   button#toTop {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 100px;
+      height: 100px;
+      z-index: 1000000;
+      background: transparent;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: none;
+    }
 
 
     {% endstyle %}
