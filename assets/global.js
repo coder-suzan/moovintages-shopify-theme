@@ -1,10 +1,3 @@
-//Scroll to top js
-
-$("#toTop").click(function () {
-  $("html, body").animate({scrollTop: 0}, 1000/*time paramiter*/);
-})
-
-
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
@@ -900,3 +893,26 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+
+//Scroll to top js
+
+$("#toTop").click(function () {
+  $("html, body").animate({scrollTop: 0}, 1000/*time paramiter*/);
+})
+
+//hero-section gsap parallax effect
+window.onload = (event) => {
+  const tl = gsap.timeline({
+    scrollTrigger : {
+      trigger: "body",
+      start: "top top",
+      end: "bottom top",
+      scrub: true
+    }
+  });
+  
+  gsap.utils.toArray(".parralax").forEach(layer => {
+    tl.to(layer, {y: -900, ease: "none"}, 0)
+  });
+}
