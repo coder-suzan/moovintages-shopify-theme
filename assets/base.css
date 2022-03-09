@@ -2951,4 +2951,5 @@ details-disclosure > details {
   background: red;
   width: 50%;
   height: 50%
+  z-index: 10000;
  }
