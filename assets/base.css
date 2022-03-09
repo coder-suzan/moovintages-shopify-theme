@@ -2941,15 +2941,15 @@ details-disclosure > details {
 }
     
 /* scroll to top button css */
-#toTop{
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  border: none;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: red;
-  width: 50%;
-  height: 50%
-  z-index: 10000;
- }
+button#toTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 100px;
+    height: 100px;
+    z-index: 1000000;
+    background: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
