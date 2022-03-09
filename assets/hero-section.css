@@ -139,3 +139,11 @@
 .hero-collection{
   position: relative;
 }
+
+.hero-collection:before{
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  background-image: url("parallax-left.svg");
+}
