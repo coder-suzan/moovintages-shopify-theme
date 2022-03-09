@@ -2940,16 +2940,30 @@ details-disclosure > details {
   }
 }
     
-/* scroll to top button css */
-button#toTop {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 100px;
-    height: 100px;
-    z-index: 1000000;
-    background: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: none;
-}
+  /* scroll to top button css */
+  #toTop {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 100px;
+      height: 100px;
+      z-index: 1000000;
+      background: transparent;
+      background-image: url({{ 'bubble-fave.svg' | asset_url }});
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: none;
+    }
+    
+    #toTop:before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 35px;
+      width: 20px;
+      height: 20px;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 40px solid #fff;
+    }
+
