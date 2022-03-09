@@ -1,7 +1,7 @@
 //Scroll to top js
 
 $("#toTop").click(function () {
-  $("html, body").animate({scrollTop: 500//scroll height paramiter}, 4000//time paramiter);
+  $("html, body").animate({scrollTop: 500/*scroll height paramiter*/}, 4000/*time paramiter*/);
 })
 
 
