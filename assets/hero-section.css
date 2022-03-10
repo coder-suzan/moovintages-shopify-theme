@@ -156,3 +156,15 @@
     right: -120px;
   }
 }
+
+@media screen and (max-width: 1024px){
+ .parralax-one {
+    top: 50px;
+    left: -150px;
+  }
+  
+  .parralax-two {
+    top: 50px;
+    right: -120px;
+  }
+}
