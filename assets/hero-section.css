@@ -118,6 +118,10 @@
 }
 
 /* hero parralax effect */
+.parallax-wrapper{
+ position: relative;
+}
+
 .parralax{
     position: absolute !important;
     background-repeat: no-repeat;
