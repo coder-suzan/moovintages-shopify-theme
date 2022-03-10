@@ -288,6 +288,10 @@ html.no-js .no-js-hidden {
   }
 }
 
+body{
+ overflow-x: hidden;    
+}
+
 body,
 .color-background-1,
 .color-background-2,
