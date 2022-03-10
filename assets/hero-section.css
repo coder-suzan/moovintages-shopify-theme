@@ -145,7 +145,7 @@
 }
 
 
-@media screen and ()max-width: 768px;){
+@media screen and (max-width: 768px){
  .parralax-one {
     top: 50px;
     left: -150px;
