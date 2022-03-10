@@ -143,3 +143,15 @@
     width: 250px;
     height: 700px;
 }
+
+
+@media screen and ()max-width: 768px;){
+ .parralax-one {
+    left: -130px;
+  }
+  
+  .parralax-two {
+    top: 100px;
+    right: -100px;
+  }
+}
