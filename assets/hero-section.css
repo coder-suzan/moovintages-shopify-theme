@@ -127,7 +127,6 @@
     position: absolute !important;
     background-repeat: no-repeat;
     background-size: contain;
-    overflow-x: hidden;
     z-index: 2;
 }
 
