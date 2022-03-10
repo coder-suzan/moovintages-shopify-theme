@@ -123,7 +123,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     overflow-x: hidden;
-    z-index: 20;
+    z-index: 2;
 }
 
 .parralax-one {
@@ -134,7 +134,8 @@
 }
 
 .parralax-two {
-    right: 100px;
+    top: 100px;
+    right: -100px;
     width: 100%;
     height: 100%;
 }
