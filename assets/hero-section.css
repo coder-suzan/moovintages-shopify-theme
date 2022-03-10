@@ -148,12 +148,12 @@
 @media screen and (max-width: 425px){
  .parralax-one {
     top: 50px;
-    left: -190px;
+    left: -190px !important;
   }
   
   .parralax-two {
     top: 50px;
-    right: -140px;
+    right: -140px !important;
   }
 }
 
