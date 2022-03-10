@@ -120,6 +120,7 @@
 /* hero parralax effect */
 .parallax-wrapper{
  position: relative;
+ overflow: hidden;
 }
 
 .parralax{
