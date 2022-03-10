@@ -60,6 +60,12 @@
     "16466325801dcafaf5": {
       "type": "collection-grid",
       "blocks": {
+        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim-1"
+          }
+        },
         "506a8414-b76d-4399-915b-484ef245c611": {
           "type": "collection",
           "settings": {
@@ -77,19 +83,13 @@
           "settings": {
             "collection": "dresses"
           }
-        },
-        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742": {
-          "type": "collection",
-          "settings": {
-            "collection": "denim-1"
-          }
         }
       },
       "block_order": [
+        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742",
         "506a8414-b76d-4399-915b-484ef245c611",
         "f8f36dec-4c95-4db9-95cb-89c14c8a8a7b",
-        "56ededc9-b4cd-481c-981d-df5fa98c306f",
-        "f9fa031f-7e0e-4817-aa5c-156bf9fd3742"
+        "56ededc9-b4cd-481c-981d-df5fa98c306f"
       ],
       "settings": {
         "collection_header": "take a look around"
