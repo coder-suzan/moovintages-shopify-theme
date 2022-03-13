@@ -1155,3 +1155,28 @@ a.product__text {
   display: block;
   padding-bottom: 100%;
 }
+
+  /* Product Reviews */
+.spr-form-input {
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.spr-form-input:focus{
+  border: none;
+}
+
+.spr-button, .spr-button-primary {
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.spr-review-footer {
+    display: none;
+}
+
+.spr-review-content{
+  margin: 0;
+}
