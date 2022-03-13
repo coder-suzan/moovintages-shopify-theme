@@ -86,6 +86,9 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
+            </div>
+ <!-- Product Reviews code -->
+            <span id="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
           </div>
           
           <div class="bubble-tag bubble--{% if card_product.tags contains "New" %}new {% elsif card_product.tags contains "Fave" %}fave {% elsif card_product.compare_at_price != blank %}sale{% endif %}">
