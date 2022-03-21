@@ -13,6 +13,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       border: none;
+      display: none;
     }
     
     #toTop:before {
@@ -57,6 +58,10 @@
       width: 100%;
       position: relative;     
     }
+
+     #toTop.active{
+      display: block;
+    }
 {% endstyle %}
 
     <!-- scroll to top button -->
@@ -73,6 +78,12 @@
       $("#toTop").click(function () {
         $("html, body").animate({scrollTop: 0}, 1000/*time paramiter*/);
       })
+      
+      
+      window.addEventListener("scroll", function(){
+         const toTop = document.querySelector("#toTop");
+        toTop.classlist.toggle("active", window.scrollY > 200 );
+      });
 
   </script>
 
