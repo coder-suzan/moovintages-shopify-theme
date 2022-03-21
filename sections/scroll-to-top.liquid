@@ -82,8 +82,13 @@
       
       window.addEventListener("scroll", function(){
          const toTop = document.querySelector("#toTop");
-        toTop.classlist.toggle("active", window.scrollY > 200 );
+        toTop.classList.toggle("active", window.scrollY > 200 );
       });
+    
+//         window.addEventListener("scroll", function(){
+//           let  topBtn = document.querySelector(".top-btn-wrapper");
+//           topBtn.classList.toggle("active", window.scrollY > 300 );
+//         });
 
   </script>
 
