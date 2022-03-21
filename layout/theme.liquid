@@ -217,63 +217,6 @@
       color: #fff;
     }
     
-    /* scroll to top button css */
-  #toTop {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      width: 100px;
-      height: 110px;
-      z-index: 1000000;
-      background: transparent;
-      background-image: url({{ 'bubble-fave.svg' | asset_url }});
-      background-size: cover;
-      background-repeat: no-repeat;
-      border: none;
-    }
-    
-    #toTop:before {
-      content: "";
-      position: absolute;
-      top: 30px;
-      left: 35px;
-      width: 20px;
-      height: 20px;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-bottom: 40px solid #fff;
-      transition: 0.3s;
-    }
-    
-   #toTop:hover:before{
-      border-bottom: 40px solid #656363;
-      cursor: pointer;
-    }
-    
-   @media screen and (max-width: 768px){
-     #toTop {
-      width: 75px;
-      height: 80px;
-     }
-    
-      #toTop:before {
-      top: 25px;
-      left:30px;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 30px solid #fff;
-     }
-    
-      #toTop:hover:before{
-      border-bottom: 30px solid #656363;
-     }
-    }
-    
-    .site-wrapper{
-      overflow: hidden;
-      width: 100%;
-      position: relative;     
-    }
 
     {% endstyle %}
 
@@ -303,8 +246,7 @@
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
-    <!-- scroll to top button -->
-    <button id="toTop"></button>
+
     
     {% section 'announcement-bar' %}
     {% section 'header' %}
@@ -316,8 +258,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     
-    <!-- Jquery cdn link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     {% section 'moo-footer' %}
 
     <ul hidden>
